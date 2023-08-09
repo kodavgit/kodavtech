@@ -114,9 +114,8 @@ section {
 
 .home {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    
 }
 
 .home-img img {
@@ -280,6 +279,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 0;
     gap: 2rem;
     background: var(--second-bg-color);
 }
